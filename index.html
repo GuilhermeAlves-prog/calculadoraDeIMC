@@ -4,8 +4,36 @@
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <title>Calculadora de IMC</title>
+  <link rel="stylesheet" href="style/style.css">
 </head>
 <body>
+  <div class="container">
+    <form>
+      <div class="card">
+        <h1 class="title">Cálculo de IMC</h1>
+        <div class="input-wrapper">
+          <label for="weight">Peso (kg)</label>
+          <input type="number" name="weight" id="weight" placeholder="60">
+        </div>
   
+        <div class="input-wrapper">
+          <label for="heigth">Altura (cm)</label>
+          <input type="number" name="height" id="height" placeholder="160">
+        </div>
+        <button id="btn">Calcular IMC <img src="assets/arrow-up-right.svg" alt="arrow"></button>
+      </div>
+    </form>
+    <div class="modal">
+      <div class="card">
+        <h2 class="title">Seu IMC é de 28</h2>
+        <button class="close"><img src="assets/close.svg" alt="close" ></button>
+      </div>
+    </div>
+
+    <div class="error">
+      <p>Digite somente números</p>
+    </div>
+  </div>
+  <script src="js/index.js"></script>
 </body>
 </html>
