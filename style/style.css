@@ -100,12 +100,22 @@ form .card button:hover {
   font-weight: bold;
   padding: 10px;
   text-align: center;
-  display: none;
+  transform: translateY(-40px);
+  visibility: hidden;
+  opacity: 0;
 }
 .modal.open {
   visibility: visible;
   opacity: 1;
 }
+.error.open {
+  visibility: visible;
+  opacity: 1;
+  display: block;
+  transform: translateY(0px);
+  transition: all 0.5s;
+}
+
 .modal {
   display: grid;
   place-content: center;
