@@ -7,7 +7,7 @@ nesse projeto foi utilizado várias funçoes, Object literals, eventos como onsu
 
 ### Deploy
 
-acesse [aqui](https://guilhermealves-prog.github.io/calculadoraDeIMC/)
+acesse [aqui](https://guialvess.github.io/calculadoraDeIMC/)
 
 ## Tecnologias
 - HTML
